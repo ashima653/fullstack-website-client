@@ -1,0 +1,37 @@
+@import "../../css-config/mixins.scss";
+
+
+.category-main-content{
+    margin: 6% 30px;
+    // background: black;
+
+    @include md{
+        margin: 5% 75px;
+
+    }
+
+    .layout{
+        min-width: calc(100% - 20px);
+        margin: 0 auto;
+
+        @include md{
+            min-width: 1200px;
+        }
+    }
+
+    .title{
+        font-size: 24px;
+        @include md{
+            font-size: 34px;  
+        }
+    }
+
+    .products-container{
+        margin: 20px 0;
+
+        @include md{
+            margin: 50px 0;
+        }
+    }
+
+}
